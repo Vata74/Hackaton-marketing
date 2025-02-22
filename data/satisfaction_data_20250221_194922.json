@@ -1,0 +1,2877 @@
+[
+    {
+        "timestamp": "2025-02-21T19:48:57.683685",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.47277990579605106,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.7277990579605103,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:57.785665",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.73422413867332,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.5161366490269671,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.968036413192749,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 2
+            },
+            {
+                "pose": {
+                    "score": 0.8102989080221685,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.8744009353526659,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.791387677192688,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 3
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:58.029283",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.660242388033224,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.08398071781365579,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.8764528036117554,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 2
+            },
+            {
+                "pose": {
+                    "score": 0.771260864884226,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.8996739238538239,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.7630977630615234,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 3
+            },
+            {
+                "pose": {
+                    "score": 0.7714734943277167,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.7654983570618941,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9664874076843262,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 4
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:58.100321",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7637372447077329,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.8342437433030164,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.8,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.8860068321228027,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:58.322063",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.5702561782418586,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.49203390983667405,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.9645109176635742,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 2
+            },
+            {
+                "pose": {
+                    "score": 0.7900764891215708,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.7462419329143543,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.7814019918441772,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 3
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:58.525493",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6255236039591934,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.5833997951832781,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.7801363468170166,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            },
+            {
+                "pose": {
+                    "score": 0.6094376088684479,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.36059659421820023,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9534811973571777,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 2
+            },
+            {
+                "pose": {
+                    "score": 0.8263873546474643,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.9656833603338836,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.8153485059738159,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 3
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:58.769256",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.688032830255753,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.904851217385969,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9230514764785767,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            },
+            {
+                "pose": {
+                    "score": 0.6345556712150574,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.7455567121505737,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 2
+            },
+            {
+                "pose": {
+                    "score": 0.5254595649294305,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.23872034553173382,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.8965151309967041,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 3
+            },
+            {
+                "pose": {
+                    "score": 0.545206001996994,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.8520600199699402,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 4
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:58.948612",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6470186233520508,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.8,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9701862335205078,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:59.282503",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.5467326259613037,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.8673262596130371,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:59.373032",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6659891149849247,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.8390157523754914,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.8013675212860107,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:59.418758",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6345551459747847,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.9601090542199188,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.9053878784179688,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:59.461913",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.5737054805396465,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.10538983638979826,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9789700508117676,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:59.642899",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.656295177936554,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9629517793655396,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            },
+            {
+                "pose": {
+                    "score": 0.5846932416813959,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.7858647542909712,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.6681352853775024,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:48:59.871331",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6414068566606685,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.033857193818519704,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.7632827758789062,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:00.071550",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.5836329911047471,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.3484905149501243,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.7135941386222839,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:00.973377",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6122038257911099,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.5337299749548521,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.7214432954788208,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            },
+            {
+                "pose": {
+                    "score": 0.7301851403577516,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.47345577071997147,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9916677474975586,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:01.191406",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7091877359335108,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.27462571076848974,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.679938793182373,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            },
+            {
+                "pose": {
+                    "score": 0.4642597556114197,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.6425975561141968,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:01.439052",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7964593317233255,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.9359517270477151,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.5606657266616821,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:01.626784",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.762833127522891,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.9268414149312522,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.6380691528320312,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:01.808593",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7431041368432358,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.40924025150637944,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.8171809911727905,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:02.174603",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6161528086662293,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.5615280866622925,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:03.630656",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7716942259194934,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.8010147628005901,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9154201149940491,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:03.675736",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7933686356849099,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.9613120192333229,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.891718327999115,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:04.060690",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6177362020018193,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.8543079264975211,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.8959001302719116,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:04.394560",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.5321918226603664,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.2955754606750247,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.2785550355911255,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:04.642333",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7267686246897591,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.5071907990944466,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9069000482559204,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:05.082984",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6201464033126831,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.601464033126831,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:05.738838",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6657628479185533,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.980355876407909,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.5870946645736694,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:05.939388",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7775609362539251,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.8894635759569529,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.4414139986038208,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:06.012265",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7196901428895703,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.7401054780996583,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.4867432117462158,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:06.082747",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7623575865627702,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.803707797925589,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.41801416873931885,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:06.213027",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7570854725505395,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.7585642748842518,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.4330083131790161,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:06.284444",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.793633832009206,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.9629578687851287,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.4919015169143677,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:06.388021",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.5769060354149457,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.9020158322096645,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.41603660583496094,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:06.608795",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.8132504024588522,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.9513341045932344,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.7055028676986694,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            },
+            {
+                "pose": {
+                    "score": 0.6419710759468269,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.939962564671961,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.40976691246032715,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            },
+            {
+                "pose": {
+                    "score": 0.7938028083903016,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.8804719359758312,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.61732017993927,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 3
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:06.651732",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7795116344214399,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.885677601973824,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.4665999412536621,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:06.695741",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7350956070170019,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.6246851204138434,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.41392838954925537,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:06.894521",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6546966196981437,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.7652174803199816,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.7991399765014648,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 3
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:06.939108",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7937324499713255,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.6788772580536697,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9190086126327515,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:07.096218",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.8059342853762161,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.78613002600766,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.8801478147506714,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:07.263077",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.8399599548275788,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.9584572289357716,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9619137048721313,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:07.424403",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7795256215080668,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.5660416005353461,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9461938142776489,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:07.580204",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7813440747627842,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.5884131243290028,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9308210611343384,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:07.626676",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7849615564810232,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.5718249419444109,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9918781518936157,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:07.670372",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.8209588485347017,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.8241504545918992,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9733628034591675,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:07.912952",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7838920523860355,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.6900484099244408,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.8038479089736938,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            },
+            {
+                "pose": {
+                    "score": 0.7631140870814774,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.7136644012168075,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.560644268989563,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            },
+            {
+                "pose": {
+                    "score": 0.7711382443830768,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.8769520488880738,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.3959543704986572,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 3
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:09.559118",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.5101514732837678,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.501514732837677,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:09.677344",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.49918996095657353,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.9918996095657349,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            },
+            {
+                "pose": {
+                    "score": 0.5082846134825463,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.3492480714611971,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.558974027633667,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:09.920049",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6192329025268555,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.5923290252685547,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:10.116007",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.4776325537893642,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.1333658788823211,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.5762767195701599,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:10.286345",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.4588845417322908,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.005356461089316311,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.5808107256889343,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:10.474219",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6242535144328278,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.7179328959777631,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.5656358003616333,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:10.652625",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6994099331310295,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.5376246613998563,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.5876623392105103,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:10.846110",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6192049479484558,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.5920494794845581,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:12.499286",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7721059327496971,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.7674085889749298,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9699464440345764,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:16.194654",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.5197489953041077,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.5974899530410767,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            },
+            {
+                "pose": {
+                    "score": 0.7905452693445871,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.881693395603624,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.9829126000404358,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 3
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:16.241584",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6820446763485504,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.9845730053383985,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.7435872554779053,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:16.289810",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.609452648880862,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.594804673213315,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.6023194789886475,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:16.335359",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.548598511943567,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.24733470763993415,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.514983057975769,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:16.382883",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.5280639163662406,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.12593604194416785,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.4917351007461548,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:16.592837",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7247311666041061,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.45030670326911393,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.5718516111373901,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            },
+            {
+                "pose": {
+                    "score": 0.46909069834068695,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.13288584139050896,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.49157822132110596,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 3
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:16.779568",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.5514674270341592,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.7084459226593689,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.45200538635253906,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:16.824572",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7901266164831717,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.9872518031149436,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 1.0,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.42038846015930176,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:16.869540",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7131604537915427,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.6090402666404764,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.6180441379547119,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:16.917595",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6693496109147361,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.8747662074694966,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.7813467979431152,
+                            "estado": "Centrado"
+                        }
+                    }
+                },
+                "person_id": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:17.472656",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.5211003725972527,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.6710977986433471,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.20435702800750732,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:17.679162",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.6252814762967221,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.031931371938779596,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.6049177050590515,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:17.868605",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7217900111865807,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.6689348079044344,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.6144979000091553,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 3
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:18.109519",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.7549518170814433,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.8967124401600616,
+                            "estado": "Nivelados"
+                        },
+                        "brazos": {
+                            "score": 1.0,
+                            "estado": "Relajados"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.6044495105743408,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:18.450637",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.4400788187980652,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.5,
+                            "estado": "Cerrada"
+                        },
+                        "centrado": {
+                            "score": 0.40078818798065186,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 2
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-21T19:49:18.672979",
+        "analyses": [
+            {
+                "pose": {
+                    "score": 0.5037141537666321,
+                    "details": {
+                        "postura": {
+                            "score": 0.5,
+                            "estado": "Regular"
+                        },
+                        "hombros": {
+                            "score": 0.0,
+                            "estado": "Desnivelados"
+                        },
+                        "brazos": {
+                            "score": 0.6,
+                            "estado": "Tensos"
+                        },
+                        "apertura": {
+                            "score": 0.8,
+                            "estado": "Abierta"
+                        },
+                        "centrado": {
+                            "score": 0.4371415376663208,
+                            "estado": "Desviado"
+                        }
+                    }
+                },
+                "person_id": 3
+            }
+        ]
+    }
+]

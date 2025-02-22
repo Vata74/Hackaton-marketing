@@ -1,0 +1,22 @@
+[
+    {
+        "timestamp": "2025-02-21T19:32:47.681891",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.9999999999999999,
+                "details": {
+                    "postura": {
+                        "score": 0.3,
+                        "angulo": 104.99877133766154,
+                        "estado": "Buena"
+                    },
+                    "hombros": {
+                        "score": 0.15,
+                        "diferencia": 0.01224440336227417,
+                        "estado": "Nivelados"
+                    },
+                    "brazos": {
+                        "score": 0.25,
+                        "cruzados": false,
+                        "relajados": 
