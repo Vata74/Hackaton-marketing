@@ -5,24 +5,20 @@ import json
 from datetime import datetime
 import os
 import sys
-from fer import FER
-import traceback
 
 class PoseSatisfactionDetector:
     def __init__(self):
         print("Iniciando sistema de detección...")
-        # Inicializar detectores de MediaPipe con mayor precisión
+        # Inicializar detectores de MediaPipe
         self.mp_pose = mp.solutions.pose
         self.pose = self.mp_pose.Pose(
-            min_detection_confidence=0.5,  # Aumentado para mayor precisión
-            min_tracking_confidence=0.5,   # Aumentado para mejor seguimiento
-            model_complexity=2,            # Máxima complejidad para mejor precisión
-            enable_segmentation=False      # Deshabilitamos la segmentación
+            min_detection_confidence=0.3,  # Reducido para detectar mejor
+            min_tracking_confidence=0.3,   # Reducido para mejor seguimiento
+            model_complexity=1,
+            enable_segmentation=True
         )
         self.mp_drawing = mp.solutions.drawing_utils
         self.satisfaction_data = []
-        self.last_person_coords = None  # Almacenar coordenadas de la última persona detectada
-        self.emotion_detector = FER()  # Inicializar detector de emociones
         
         # Cargar modelo YOLO para detección de personas
         weights_path = os.path.join(os.path.dirname(__file__), 'yolov4-tiny.weights')
@@ -35,10 +31,19 @@ class PoseSatisfactionDetector:
         print("Cargando modelo YOLO...")
         try:
             self.net = cv2.dnn.readNet(weights_path, config_path)
-            self.net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)
-            self.net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
-            print("Modelo YOLO cargado correctamente")
             
+            # Intentar usar GPU si está disponible
+            try:
+                print("Intentando usar GPU (CUDA)...")
+                self.net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
+                self.net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
+                print("GPU activada correctamente")
+            except:
+                print("GPU no disponible, usando CPU")
+                self.net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)
+                self.net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
+            
+            print("Modelo YOLO cargado correctamente")
         except Exception as e:
             print(f"Error al cargar el modelo YOLO: {e}")
             raise
@@ -78,7 +83,7 @@ class PoseSatisfactionDetector:
             return 0
 
     def analyze_body_language(self, landmarks):
-        """Analiza el lenguaje corporal con métricas más precisas"""
+        """Analiza el lenguaje corporal en detalle"""
         try:
             # Puntos clave
             left_shoulder = landmarks[self.mp_pose.PoseLandmark.LEFT_SHOULDER.value]
@@ -97,235 +102,149 @@ class PoseSatisfactionDetector:
             hips_mid = np.array([(left_hip.x + right_hip.x) / 2,
                                 (left_hip.y + right_hip.y) / 2])
             
-            # 1. Postura de la espalda (35%)
+            # 1. Postura de la espalda
             spine_angle = self.calculate_angle(nose, 
                                             type('Point', (), {'x': shoulders_mid[0], 'y': shoulders_mid[1]}),
                                             type('Point', (), {'x': hips_mid[0], 'y': hips_mid[1]}))
             posture_straight = 80 <= spine_angle <= 100
-            posture_score = 0.35 if posture_straight else (0.175 if 70 <= spine_angle <= 110 else 0)
             
-            # 2. Nivel de hombros (20%)
+            # 2. Nivel de hombros
             shoulder_diff = abs(left_shoulder.y - right_shoulder.y)
             shoulders_level = shoulder_diff < 0.05
-            shoulder_score = 0.20 if shoulders_level else (0.10 if shoulder_diff < 0.1 else 0)
             
-            # 3. Posición de los brazos (25%)
-            left_arm_tension = self.calculate_angle(left_shoulder, left_elbow, left_wrist)
-            right_arm_tension = self.calculate_angle(right_shoulder, right_elbow, right_wrist)
-            arms_relaxed = (left_arm_tension > 100 and right_arm_tension > 100)
-            arms_score = 0.25 if arms_relaxed else (0.125 if left_arm_tension > 100 or right_arm_tension > 100 else 0)
+            # 3. Posición de los brazos
+            # Detectar brazos cruzados
+            arms_crossed = (
+                abs(left_wrist.x - right_shoulder.x) < 0.2 and
+                abs(right_wrist.x - left_shoulder.x) < 0.2
+            )
             
-            # 4. Centrado del cuerpo (20%)
+            # 4. Apertura corporal
+            left_arm_angle = self.calculate_angle(left_shoulder, left_elbow, left_wrist)
+            right_arm_angle = self.calculate_angle(right_shoulder, right_elbow, right_wrist)
+            arms_open = (left_arm_angle > 30 and right_arm_angle > 30)
+            
+            # 5. Centrado del cuerpo
             hip_center = (left_hip.x + right_hip.x) / 2
             shoulder_center = (left_shoulder.x + right_shoulder.x) / 2
             body_centered = abs(hip_center - shoulder_center) < 0.1
-            center_score = 0.20 if body_centered else (0.10 if abs(hip_center - shoulder_center) < 0.15 else 0)
             
-            # Calcular score total
-            total_score = posture_score + shoulder_score + arms_score + center_score
-            
-            # Detalles del análisis
-            details = {
-                'postura': {
-                    'score': posture_score,
-                    'angulo': spine_angle,
-                    'estado': 'Excelente' if posture_straight else 'Regular' if 70 <= spine_angle <= 110 else 'Mala'
-                },
-                'hombros': {
-                    'score': shoulder_score,
-                    'diferencia': shoulder_diff,
-                    'estado': 'Nivelados' if shoulders_level else 'Desnivelados'
-                },
-                'brazos': {
-                    'score': arms_score,
-                    'tension_izq': left_arm_tension,
-                    'tension_der': right_arm_tension,
-                    'estado': 'Relajados' if arms_relaxed else 'Tensos'
-                },
-                'centrado': {
-                    'score': center_score,
-                    'desviacion': abs(hip_center - shoulder_center),
-                    'estado': 'Centrado' if body_centered else 'Desviado'
-                }
-            }
+            # Calcular score de postura
+            posture_score = 0
+            if posture_straight: posture_score += 0.3  # Postura recta
+            if shoulders_level: posture_score += 0.2   # Hombros nivelados
+            if not arms_crossed: posture_score += 0.2  # Brazos no cruzados
+            if arms_open: posture_score += 0.2         # Brazos abiertos
+            if body_centered: posture_score += 0.1     # Cuerpo centrado
             
             return {
-                'score': total_score,
-                'details': details,
+                'score': posture_score,
+                'posture_straight': posture_straight,
+                'shoulders_level': shoulders_level,
+                'arms_crossed': arms_crossed,
+                'arms_open': arms_open,
+                'body_centered': body_centered,
                 'spine_angle': spine_angle
             }
-            
         except Exception as e:
             print(f"Error en analyze_body_language: {e}")
             raise
 
-    def analyze_emotions(self, frame):
-        """Analiza las emociones en el frame dado"""
-        try:
-            emotions = self.emotion_detector.detect_emotions(frame)
-            if emotions:
-                # Obtener la emoción más prominente
-                dominant_emotion = max(emotions[0]['emotions'], key=emotions[0]['emotions'].get)
-                print(f"Emoción detectada: {dominant_emotion}")  # Mensaje de diagnóstico
-                return dominant_emotion
-            else:
-                print("No se detectaron emociones")  # Mensaje de diagnóstico
-        except Exception as e:
-            print(f"Error al analizar emociones: {e}")
-        return None
-
     def detect_people(self, frame):
-        """Detecta personas usando YOLO con mayor precisión"""
-        height, width = frame.shape[:2]
+        """Detecta personas usando MediaPipe Pose directamente"""
+        frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        frame_rgb.flags.writeable = False
         
-        # Preparar imagen para YOLO
-        blob = cv2.dnn.blobFromImage(frame, 1/255.0, (416, 416), swapRB=True, crop=False)
-        self.net.setInput(blob)
+        # Mejorar el contraste y brillo de la imagen
+        lab = cv2.cvtColor(frame_rgb, cv2.COLOR_RGB2LAB)
+        l, a, b = cv2.split(lab)
+        clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8,8))
+        cl = clahe.apply(l)
+        enhanced = cv2.merge((cl,a,b))
+        frame_rgb = cv2.cvtColor(enhanced, cv2.COLOR_LAB2RGB)
         
-        try:
-            outs = self.net.forward(self.output_layers)
-            boxes = []
-            confidences = []
+        # Detectar poses
+        results = self.pose.process(frame_rgb)
+        people_regions = []
+        
+        if results.pose_landmarks:
+            height, width = frame.shape[:2]
             
-            # Procesar cada detección
-            for out in outs:
-                for detection in out:
-                    scores = detection[5:]
-                    class_id = np.argmax(scores)
-                    confidence = scores[class_id]
-                    
-                    # Solo detectar personas con alta confianza
-                    if class_id == 0 and confidence > 0.5:
-                        center_x = int(detection[0] * width)
-                        center_y = int(detection[1] * height)
-                        w = int(detection[2] * width)
-                        h = int(detection[3] * height)
-                        
-                        x = int(center_x - w/2)
-                        y = int(center_y - h/2)
-                        
-                        boxes.append([x, y, w, h])
-                        confidences.append(float(confidence))
+            # Obtener coordenadas de los landmarks
+            landmarks = results.pose_landmarks.landmark
             
-            # Aplicar non-maximum suppression
-            indices = cv2.dnn.NMSBoxes(boxes, confidences, 0.5, 0.4)
+            # Encontrar los límites del cuerpo
+            x_coordinates = [landmark.x for landmark in landmarks]
+            y_coordinates = [landmark.y for landmark in landmarks]
             
-            # Seleccionar solo la detección más confiable
-            if len(indices) > 0:
-                indices = indices.flatten()
-                sorted_indices = sorted([(i, confidences[i]) for i in indices], 
-                                     key=lambda x: x[1], reverse=True)
-                
-                # Tomar solo la primera detección (la más confiable)
-                i = sorted_indices[0][0]
-                box = boxes[i]
-                x, y, w, h = box
-                
-                # Agregar margen para mejor detección de pose
-                margin_x = int(w * 0.2)
-                margin_y = int(h * 0.2)
-                x = max(0, x - margin_x)
-                y = max(0, y - margin_y)
-                w = min(width - x, w + 2*margin_x)
-                h = min(height - y, h + 2*margin_y)
-                
-                self.last_person_coords = (x, y, w, h)  # Actualizar coordenadas de la última persona detectada
-                return [(x, y, w, h)]
+            # Calcular el bounding box
+            x_min = max(0, int(min(x_coordinates) * width))
+            y_min = max(0, int(min(y_coordinates) * height))
+            x_max = min(width, int(max(x_coordinates) * width))
+            y_max = min(height, int(max(y_coordinates) * height))
             
-            # Si no se detecta a la persona, intentar buscar cerca de la última posición
-            if self.last_person_coords:
-                x, y, w, h = self.last_person_coords
-                search_margin = 50  # Margen de búsqueda
-                x = max(0, x - search_margin)
-                y = max(0, y - search_margin)
-                w = min(width - x, w + 2 * search_margin)
-                h = min(height - y, h + 2 * search_margin)
-                return [(x, y, w, h)]
+            # Agregar margen
+            margin = 20
+            x = max(0, x_min - margin)
+            y = max(0, y_min - margin)
+            w = min(width - x, (x_max - x_min) + 2*margin)
+            h = min(height - y, (y_max - y_min) + 2*margin)
             
-            return []
+            people_regions.append((x, y, w, h))
+            print(f"Detectadas {len(people_regions)} personas")
             
-        except Exception as e:
-            print(f"Error en la detección YOLO: {e}")
-            return []
+        return people_regions
 
     def process_frame(self, frame):
-        if frame is None:
-            print("Frame nulo recibido")
-            return frame
-            
+        # Asegurarse de que el frame sea continuo en memoria
         if not frame.flags['C_CONTIGUOUS']:
             frame = np.ascontiguousarray(frame)
         
-        # Detectar personas usando YOLO
-        people_regions = self.detect_people(frame)
+        # Convertir a RGB
+        frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        frame_rgb.flags.writeable = False
         
-        # Lista para almacenar análisis
+        # Procesar el frame completo con MediaPipe
+        results = self.pose.process(frame_rgb)
+        
+        # Lista para almacenar análisis de todas las personas detectadas
         all_analyses = []
         
-        # Procesar cada región donde se detectó una persona
-        for i, (x, y, w, h) in enumerate(people_regions):
+        if results.pose_landmarks:
             try:
-                # Extraer región de la persona con un margen adicional
-                margin_x = int(w * 0.2)
-                margin_y = int(h * 0.2)
-                x1 = max(0, x - margin_x)
-                y1 = max(0, y - margin_y)
-                x2 = min(frame.shape[1], x + w + margin_x)
-                y2 = min(frame.shape[0], y + h + margin_y)
+                # Analizar lenguaje corporal
+                body_analysis = self.analyze_body_language(results.pose_landmarks.landmark)
+                all_analyses.append(body_analysis)
                 
-                person_frame = frame[y1:y2, x1:x2].copy()
+                # Dibujar landmarks
+                self.mp_drawing.draw_landmarks(
+                    frame,
+                    results.pose_landmarks,
+                    self.mp_pose.POSE_CONNECTIONS,
+                    landmark_drawing_spec=self.mp_drawing.DrawingSpec(color=(0, 255, 0), thickness=2, circle_radius=2),
+                    connection_drawing_spec=self.mp_drawing.DrawingSpec(color=(0, 255, 0), thickness=2)
+                )
                 
-                # Verificar tamaño mínimo
-                if person_frame.shape[0] < 64 or person_frame.shape[1] < 64:
-                    print(f"Región {i+1} demasiado pequeña: {person_frame.shape}")
-                    continue
+                # Obtener bounding box para la persona
+                height, width = frame.shape[:2]
+                landmarks = results.pose_landmarks.landmark
+                x_coordinates = [landmark.x for landmark in landmarks]
+                y_coordinates = [landmark.y for landmark in landmarks]
                 
-                # Redimensionar si es necesario para mantener proporciones consistentes
-                target_height = 480
-                aspect_ratio = person_frame.shape[1] / person_frame.shape[0]
-                target_width = int(target_height * aspect_ratio)
-                person_frame = cv2.resize(person_frame, (target_width, target_height))
+                x_min = max(0, int(min(x_coordinates) * width))
+                y_min = max(0, int(min(y_coordinates) * height))
+                x_max = min(width, int(max(x_coordinates) * width))
+                y_max = min(height, int(max(y_coordinates) * height))
                 
-                # Convertir a RGB para MediaPipe
-                person_frame_rgb = cv2.cvtColor(person_frame, cv2.COLOR_BGR2RGB)
+                # Dibujar rectángulo alrededor de la persona
+                cv2.rectangle(frame, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)
+                cv2.putText(frame, "Persona 1", (x_min, y_min-10),
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
                 
-                # Procesar con MediaPipe
-                results = self.pose.process(person_frame_rgb)
-                
-                if results.pose_landmarks:
-                    # Dibujar landmarks en la región
-                    self.mp_drawing.draw_landmarks(
-                        person_frame,
-                        results.pose_landmarks,
-                        self.mp_pose.POSE_CONNECTIONS,
-                        landmark_drawing_spec=self.mp_drawing.DrawingSpec(color=(0, 255, 0), thickness=2, circle_radius=2),
-                        connection_drawing_spec=self.mp_drawing.DrawingSpec(color=(0, 255, 0), thickness=2)
-                    )
-                    
-                    # Analizar lenguaje corporal
-                    body_analysis = self.analyze_body_language(results.pose_landmarks.landmark)
-                    all_analyses.append(body_analysis)
-                    
-                    # Detección de emociones
-                    dominant_emotion = self.analyze_emotions(person_frame)
-                    if dominant_emotion:
-                        cv2.putText(person_frame, f"Emoción: {dominant_emotion}", (10, 50),
-                                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
-                    
-                    # Redimensionar de vuelta y colocar en el frame original
-                    person_frame = cv2.resize(person_frame, (x2-x1, y2-y1))
-                    frame[y1:y2, x1:x2] = person_frame
-                    
-                    # Dibujar rectángulo y etiqueta
-                    cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
-                    cv2.putText(frame, f"Persona {i+1}", (x, y-10),
-                               cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
-                    
             except Exception as e:
-                print(f"Error al procesar persona {i+1}: {e}")
-                continue
+                print(f"Error al procesar persona: {e}")
         
-        # Guardar datos si hay análisis
+        # Guardar datos de todas las personas
         if all_analyses:
             self.satisfaction_data.append({
                 'timestamp': datetime.now().isoformat(),
@@ -335,64 +254,64 @@ class PoseSatisfactionDetector:
         
         # Mostrar información para cada persona
         for i, analysis in enumerate(all_analyses):
-            try:
-                self.draw_satisfaction_info(frame, analysis, person_index=i, total_people=len(all_analyses))
-            except Exception as e:
-                print(f"Error al dibujar información: {e}")
+            self.draw_satisfaction_info(frame, analysis, person_index=i, total_people=len(all_analyses))
         
         # Agregar contador de personas
-        cv2.putText(frame, f"Personas detectadas: {len(people_regions)}", 
+        cv2.putText(frame, f"Personas detectadas: {len(all_analyses)}", 
                    (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
-        
+            
         return frame
 
     def draw_satisfaction_info(self, frame, analysis, person_index=0, total_people=1):
         height, width = frame.shape[:2]
         score = analysis['score']
-        details = analysis['details']
         
         # Ajustar posición según el número de persona
-        section_height = height // total_people
-        vertical_offset = person_index * section_height
+        vertical_offset = person_index * (height // total_people)
         
         # Color basado en el score (rojo a verde)
         color = (0, int(255 * score), int(255 * (1 - score)))
         
-        # Barra de satisfacción principal
-        bar_width = 300
+        # Barra de satisfacción
+        bar_width = 250
         bar_height = 30
         bar_x = width - bar_width - 20
         bar_y = vertical_offset + 20
         
-        # Dibujar barra principal
+        # Dibujar barra
         cv2.rectangle(frame, (bar_x, bar_y), (bar_x + bar_width, bar_y + bar_height), (255, 255, 255), 2)
         cv2.rectangle(frame, (bar_x, bar_y), (int(bar_x + bar_width * score), bar_y + bar_height), color, -1)
         
         # Texto principal
-        satisfaction_text = f"Persona {person_index + 1} - Satisfacción: {score:.1%}"
+        satisfaction_text = f"Persona {person_index + 1} - Satisfaccion: {score:.2%}"
         cv2.putText(frame, satisfaction_text, (bar_x, bar_y - 10), 
                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
         
         # Métricas detalladas
-        metrics_y = bar_y + bar_height + 25
-        metrics_x = bar_x
+        metrics_y = bar_y + bar_height + 30
+        metrics_names = {
+            'posture_straight': 'Postura recta',
+            'shoulders_level': 'Hombros nivelados',
+            'arms_crossed': 'Brazos cruzados',
+            'arms_open': 'Postura abierta',
+            'body_centered': 'Cuerpo centrado'
+        }
         
-        # Mostrar detalles de cada métrica
-        for metric_name, metric_data in details.items():
-            if 'score' in metric_data and 'estado' in metric_data:
-                # Color basado en el score de la métrica
-                metric_color = (0, int(255 * (metric_data['score'] / 0.3)), int(255 * (1 - metric_data['score'] / 0.3)))
-                
-                # Texto de la métrica
-                metric_text = f"{metric_name.title()}: {metric_data['estado']} ({metric_data['score']*100:.0f}%)"
-                cv2.putText(frame, metric_text, (metrics_x, metrics_y), 
-                           cv2.FONT_HERSHEY_SIMPLEX, 0.6, metric_color, 2)
+        for metric, name in metrics_names.items():
+            if metric in analysis:
+                value = analysis[metric]
+                if metric == 'arms_crossed':  # Invertir para arms_crossed
+                    value = not value
+                status = "OK" if value else "NO"
+                text_color = (0, 255, 0) if value else (0, 0, 255)
+                cv2.putText(frame, f"{name}: {status}", (bar_x, metrics_y), 
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.6, text_color, 2)
                 metrics_y += 25
         
         # Mostrar ángulo de la columna
         if 'spine_angle' in analysis:
-            spine_text = f"Ángulo columna: {analysis['spine_angle']:.1f}°"
-            cv2.putText(frame, spine_text, (metrics_x, metrics_y), 
+            spine_text = f"Angulo columna: {analysis['spine_angle']:.1f}°"
+            cv2.putText(frame, spine_text, (bar_x, metrics_y), 
                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
 
     def save_data(self):
@@ -405,85 +324,115 @@ class PoseSatisfactionDetector:
         return filename
 
     def run(self, source):
-        print(f"\nIniciando análisis de video: {source}")
+        """
+        Ejecuta el detector en una fuente de video (cámara o archivo)
+        source: puede ser un número de cámara (int) o ruta a un archivo de video (str)
+        """
+        print(f"\nIntentando abrir la fuente de video: {source}")
         
-        try:
-            # Verificar si el archivo existe
-            if isinstance(source, str) and not os.path.exists(source):
-                print(f"ERROR: El archivo {source} no existe")
-                return None
-            
-            print("Verificando archivo de video...")
+        # Si source es un string, asumimos que es un archivo de video
+        if isinstance(source, str):
             cap = cv2.VideoCapture(source)
             if not cap.isOpened():
-                print(f"ERROR: No se pudo abrir el video: {source}")
+                print(f"ERROR: No se pudo abrir el archivo de video: {source}")
                 return None
-                
-            print("Video abierto correctamente")
             
-            # Configurar ventana
-            window_name = "Detector de Satisfacción"
-            cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
-            cv2.resizeWindow(window_name, 1280, 720)
-            print("Ventana creada")
+            # Configurar una velocidad de reproducción más lenta para videos
+            original_fps = int(cap.get(cv2.CAP_PROP_FPS))
+            desired_fps = 5  # Reducir a 5 FPS para mejor análisis
+            frame_delay = int(1000 / desired_fps)  # Delay en milisegundos
+            print(f"FPS original: {original_fps}, FPS deseado: {desired_fps}")
+        else:
+            # Intentar diferentes backends de cámara para webcam
+            backends = [cv2.CAP_DSHOW, cv2.CAP_MSMF, cv2.CAP_ANY]
+            cap = None
             
-            # Configurar FPS
-            fps = int(cap.get(cv2.CAP_PROP_FPS))
-            frame_delay = int(1000/fps) if fps > 0 else 30
-            print(f"FPS del video: {fps}")
-            
-            frame_count = 0
-            while True:
-                print(f"\rLeyendo frame {frame_count + 1}", end="")
-                ret, frame = cap.read()
-                
-                if not ret:
-                    print("\nNo se pudo leer el siguiente frame")
-                    break
-                    
-                frame_count += 1
-                if frame_count == 1:
-                    print("\nPrimer frame leído correctamente")
-                    print(f"Dimensiones del frame: {frame.shape}")
-                
+            for backend in backends:
                 try:
-                    # Procesar frame
-                    processed_frame = self.process_frame(frame.copy())
-                    
-                    # Mostrar frame
-                    cv2.imshow(window_name, processed_frame)
-                    print(f"\rProcesando frame {frame_count}", end="")
-                    
-                    # Esperar por tecla
-                    key = cv2.waitKey(1) & 0xFF
-                    if key == ord('q'):
-                        print("\nSaliendo del programa (tecla q)")
+                    cap = cv2.VideoCapture(source + backend)
+                    if cap.isOpened():
+                        print(f"Cámara abierta correctamente usando backend {backend}")
                         break
-                    elif key == ord('p'):
-                        print("\nPausa - presiona cualquier tecla para continuar")
-                        cv2.waitKey(0)
-                        
-                except Exception as e:
-                    print(f"\nError procesando frame {frame_count}: {e}")
+                except:
                     continue
             
-            print("\nLiberando recursos...")
-            cap.release()
-            cv2.destroyAllWindows()
-            print("Recursos liberados")
+            if not cap or not cap.isOpened():
+                print(f"ERROR: No se pudo abrir la cámara {source}")
+                return None
             
-            # Guardar datos
-            if self.satisfaction_data:
-                data_file = self.save_data()
-                print(f"\nDatos guardados en: {data_file}")
-                print(f"Total frames procesados: {frame_count}")
-                print(f"Frames con detecciones: {len(self.satisfaction_data)}")
+            frame_delay = 1  # Para webcam, usar delay mínimo
+        
+        # Configurar propiedades
+        width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+        height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+        fps = int(cap.get(cv2.CAP_PROP_FPS))
+        total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+        
+        print(f"Resolución: {width}x{height} @ {fps}fps")
+        if isinstance(source, str):
+            print(f"Total de frames: {total_frames}")
+        print("\nPresiona 'q' para salir, 's' para saltar frame, 'p' para pausar/continuar")
+        
+        frame_count = 0
+        paused = False
+        
+        while True:
+            if not paused:
+                ret, frame = cap.read()
+                if not ret:
+                    if isinstance(source, str):
+                        print("\nFin del video")
+                        break
+                    else:
+                        print("Error al leer frame de la cámara")
+                        break
+                
+                frame_count += 1
+                if frame_count == 1:
+                    print("Primer frame capturado correctamente")
+                
+                if isinstance(source, str):
+                    print(f"\rProcesando frame {frame_count}/{total_frames} ({(frame_count/total_frames)*100:.1f}%)", end="")
             
-            return True
-            
-        except Exception as e:
-            print(f"\nError general en run: {e}")
-            return False
+            try:
+                # Procesar frame
+                processed_frame = self.process_frame(frame.copy())
+                
+                # Mostrar resultado
+                cv2.imshow("Detector de Satisfaccion", processed_frame)
+                
+                # Control de reproducción
+                key = cv2.waitKey(frame_delay) & 0xFF
+                if key == ord('q'):
+                    print("\nCerrando programa...")
+                    break
+                elif key == ord('p'):
+                    paused = not paused
+                    print("\nVideo pausado" if paused else "\nVideo continuando")
+                elif key == ord('s'):
+                    print("\nSaltando frame")
+                    paused = False
+                
+            except Exception as e:
+                print(f"\nError al procesar frame {frame_count}: {e}")
+                continue
+        
+        # Guardar datos y limpiar
+        data_file = self.save_data()
+        cap.release()
+        cv2.destroyAllWindows()
+        print(f"\nDatos guardados en: {data_file}")
+        
+        # Mostrar resumen del análisis
+        if self.satisfaction_data:
+            print("\nResumen del análisis:")
+            print(f"Total de frames analizados: {frame_count}")
+            print(f"Frames con detecciones: {len(self.satisfaction_data)}")
+            if len(self.satisfaction_data) > 0:
+                avg_people = sum(data['num_people'] for data in self.satisfaction_data) / len(self.satisfaction_data)
+                print(f"Promedio de personas detectadas por frame: {avg_people:.2f}")
+        
+        return data_file
 
 def list_cameras():
     """Lista todas las cámaras disponibles"""
@@ -504,48 +453,28 @@ def list_cameras():
 if __name__ == "__main__":
     print("=== Detector de Satisfacción por Postura Corporal ===")
     
-    try:
-        # Verificar argumentos de línea de comandos
-        if len(sys.argv) > 1:
-            # Si se proporciona un argumento, asumimos que es un archivo de video
-            video_path = sys.argv[1]
-            print(f"\nVerificando archivo de video: {video_path}")
-            
-            # Verificar si el archivo existe
-            if not os.path.exists(video_path):
-                print(f"ERROR: El archivo {video_path} no existe")
-                sys.exit(1)
-                
-            print(f"Archivo encontrado: {video_path}")
-            print("Iniciando detector...")
-            
-            try:
-                detector = PoseSatisfactionDetector()
-                print("Detector iniciado correctamente")
-                print("Intentando procesar video...")
-                data_file = detector.run(video_path)
-            except Exception as e:
-                print(f"Error al iniciar el detector: {e}")
-                sys.exit(1)
-        else:
-            print("\nBuscando cámaras disponibles...")
-            available_cameras = list_cameras()
-            
-            if not available_cameras:
-                print("\nERROR: No se encontraron cámaras disponibles")
-                sys.exit(1)
-            
-            camera_to_use = available_cameras[0]
-            print(f"\nUsando cámara {camera_to_use}")
-            
-            detector = PoseSatisfactionDetector()
-            data_file = detector.run(camera_to_use)
+    # Verificar argumentos de línea de comandos
+    if len(sys.argv) > 1:
+        # Si se proporciona un argumento, asumimos que es un archivo de video
+        video_path = sys.argv[1]
+        print(f"\nAnalizando video: {video_path}")
+        detector = PoseSatisfactionDetector()
+        data_file = detector.run(video_path)
+    else:
+        # Si no hay argumentos, usar la cámara
+        available_cameras = list_cameras()
         
-        if data_file:
-            print("\nPrograma finalizado correctamente")
-        else:
-            print("\nError al ejecutar el programa")
-            
-    except Exception as e:
-        print(f"\nError general del programa: {e}")
-        sys.exit(1) 
+        if not available_cameras:
+            print("\nERROR: No se encontraron cámaras disponibles")
+            sys.exit(1)
+        
+        camera_to_use = available_cameras[0]
+        print(f"\nUsando cámara {camera_to_use}")
+        
+        detector = PoseSatisfactionDetector()
+        data_file = detector.run(camera_to_use)
+    
+    if data_file:
+        print("\nPrograma finalizado correctamente")
+    else:
+        print("\nError al ejecutar el programa") 
