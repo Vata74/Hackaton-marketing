@@ -195,7 +195,36 @@ class PoseSatisfactionDetector:
             
         return people_regions
 
+    def resize_frame_aspect_ratio(self, frame, max_width=1280, max_height=720):
+        """Redimensiona el frame manteniendo la proporción de aspecto"""
+        height, width = frame.shape[:2]
+        
+        # Si el frame es más pequeño que los máximos, lo dejamos como está
+        if width <= max_width and height <= max_height:
+            return frame
+            
+        # Calcular ratio de aspecto
+        aspect_ratio = width / height
+        
+        # Calcular nuevas dimensiones manteniendo proporción
+        if width > max_width:
+            new_width = max_width
+            new_height = int(new_width / aspect_ratio)
+        else:
+            new_height = max_height
+            new_width = int(new_height * aspect_ratio)
+            
+        # Si después de ajustar el ancho, la altura sigue siendo muy grande
+        if new_height > max_height:
+            new_height = max_height
+            new_width = int(new_height * aspect_ratio)
+            
+        return cv2.resize(frame, (new_width, new_height))
+
     def process_frame(self, frame):
+        # Redimensionar el frame si es necesario
+        frame = self.resize_frame_aspect_ratio(frame)
+        
         # Asegurarse de que el frame sea continuo en memoria
         if not frame.flags['C_CONTIGUOUS']:
             frame = np.ascontiguousarray(frame)
@@ -318,9 +347,29 @@ class PoseSatisfactionDetector:
         if not os.path.exists('data'):
             os.makedirs('data')
         
+        # Función auxiliar para convertir tipos de NumPy a tipos nativos de Python
+        def convert_numpy_types(obj):
+            if isinstance(obj, dict):
+                return {key: convert_numpy_types(value) for key, value in obj.items()}
+            elif isinstance(obj, list):
+                return [convert_numpy_types(item) for item in obj]
+            elif isinstance(obj, np.bool_):
+                return bool(obj)
+            elif isinstance(obj, np.integer):
+                return int(obj)
+            elif isinstance(obj, np.floating):
+                return float(obj)
+            elif isinstance(obj, np.ndarray):
+                return convert_numpy_types(obj.tolist())
+            else:
+                return obj
+        
+        # Convertir todos los datos antes de guardar
+        converted_data = convert_numpy_types(self.satisfaction_data)
+        
         filename = f"data/satisfaction_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
         with open(filename, 'w') as f:
-            json.dump(self.satisfaction_data, f, indent=4)
+            json.dump(converted_data, f, indent=4)
         return filename
 
     def run(self, source):
@@ -337,11 +386,8 @@ class PoseSatisfactionDetector:
                 print(f"ERROR: No se pudo abrir el archivo de video: {source}")
                 return None
             
-            # Configurar una velocidad de reproducción más lenta para videos
-            original_fps = int(cap.get(cv2.CAP_PROP_FPS))
-            desired_fps = 5  # Reducir a 5 FPS para mejor análisis
-            frame_delay = int(1000 / desired_fps)  # Delay en milisegundos
-            print(f"FPS original: {original_fps}, FPS deseado: {desired_fps}")
+            # Configurar una velocidad de reproducción más rápida para videos
+            frame_delay = 1  # Mínimo delay posible
         else:
             # Intentar diferentes backends de cámara para webcam
             backends = [cv2.CAP_DSHOW, cv2.CAP_MSMF, cv2.CAP_ANY]
@@ -360,15 +406,19 @@ class PoseSatisfactionDetector:
                 print(f"ERROR: No se pudo abrir la cámara {source}")
                 return None
             
-            frame_delay = 1  # Para webcam, usar delay mínimo
+            frame_delay = 1
         
-        # Configurar propiedades
+        # Configurar resolución más baja para mejor rendimiento
         width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
         height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
         fps = int(cap.get(cv2.CAP_PROP_FPS))
         total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
         
-        print(f"Resolución: {width}x{height} @ {fps}fps")
+        print(f"Resolución original: {width}x{height} @ {fps}fps")
+        if width > 1280 or height > 720:
+            print("El video será redimensionado automáticamente para mejor visualización")
+            print("Resolución máxima: 1280x720 (manteniendo proporción de aspecto)")
+        
         if isinstance(source, str):
             print(f"Total de frames: {total_frames}")
         print("\nPresiona 'q' para salir, 's' para saltar frame, 'p' para pausar/continuar")
