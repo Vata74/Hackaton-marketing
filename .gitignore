@@ -1,0 +1,26 @@
+# Carpetas de salida
+output_frames/
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de peso y configuración de YOLO
+*.weights
+
+# Entornos virtuales
+venv/
+env/
+.env/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db 
