@@ -1,0 +1,5312 @@
+[
+    {
+        "timestamp": "2025-02-23T13:23:14.953129",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 177.92136268402564
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.099276",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 177.56015440615002
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.167299",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.96847853871213
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.236074",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.57862051363196
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.294625",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.41367895260586
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.340118",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.42489030222393
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.383612",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.9857664294404
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.423999",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.68986760755885
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.467404",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.59565962748866
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.513965",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.0738516971173
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.563382",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 178.64628543965904
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.607382",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.10766907476884
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.651386",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.81977540838204
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.697894",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.643145370264
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.739901",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 178.9639871463075
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.785416",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 178.1384883698928
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.839885",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 178.3942745478153
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.894784",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 177.78147824530072
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:15.946781",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 178.84085609665314
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.010065",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 177.42438631642077
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.066132",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 177.21193296051797
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.129616",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 176.01302562338162
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.172336",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 175.8535323823462
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.216411",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 175.12544680302588
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.263273",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 175.163401948341
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.313321",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 175.3149993317374
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.364857",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 175.62609268187413
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.411559",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 175.38554590965973
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.458211",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 173.94162323032506
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.501353",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 174.4154047697469
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.547306",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 174.17620389854073
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.590381",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 173.3538845814088
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.632682",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 173.52126771746467
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.671360",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 172.05436158355738
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.712692",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 171.56826870249884
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.754783",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 171.6433543049738
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.794418",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 171.4525315990071
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.834522",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 171.34394273788905
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.873969",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 171.63314659616282
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.914064",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 172.32285642340113
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.952325",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 172.31758427968504
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:16.994043",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 176.22671708517026
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.034440",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 177.17687265282044
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.073990",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 176.81095523982387
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.117332",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.48441225660517
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.158007",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.7426230372131
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.198471",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 178.83349701008174
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.236477",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 177.44489751228008
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.287508",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 176.9158237902714
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.338145",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 174.897053567188
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.380751",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 174.33364709178156
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.419702",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 174.57520454507244
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.460701",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 173.2497961168715
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.502195",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 174.12070906940045
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.542077",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 173.6501452104421
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.584279",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 174.70519376836106
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.626279",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 176.45117018404622
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.666922",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 177.64199941972464
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.706126",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 177.28053059945572
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.748225",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 177.5630791359062
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.785583",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 178.162403934424
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.827758",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 179.772320428648
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.875328",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 177.88930135893736
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.917907",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 176.21985732548464
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.957287",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 175.05530337533088
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:17.998299",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 174.67307621784735
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.035348",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 173.7773238207884
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.077284",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 174.10793500617663
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.118573",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 168.0989872529949
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.157029",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 160.40563058753
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.199522",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 158.27624916120735
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.237523",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 149.5609153651417
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.280120",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 143.9006294764984
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.321149",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 143.48602937209787
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.361205",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 143.158977585374
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.406204",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 140.0519276384376
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.452467",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.91646476488808
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.499102",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 127.49277443974012
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.543378",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 119.17669900849512
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.586056",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 115.1729675159216
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.633165",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 111.77535747935539
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.674776",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 114.39383846924191
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.715658",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 117.77461976626584
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.759126",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 115.96858977947228
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.804213",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 111.73871307597008
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.846630",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 112.67883431329811
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.884606",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 112.7383375685663
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.927707",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 116.10420497411668
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:18.968367",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 108.37622205724179
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.008305",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 106.57108886080766
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.048308",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 104.39547963450636
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.085712",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 104.26105065952345
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.128717",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 108.5546055294802
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.172789",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 102.31703101160169
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.213787",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": false,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 104.81182534261804
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.254942",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": false,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 103.97166274071084
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.295496",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": false,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 111.55208108889454
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.336410",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": false,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 109.78493513319029
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.384824",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 115.11903985742991
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.431299",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": false,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 117.83666600984355
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.477454",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 111.5617887686727
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.521666",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": false,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 113.4875383432669
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.564093",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": false,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 112.9685109523537
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.602286",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": false,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 111.04971585311331
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.645470",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": false,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 114.53728809107776
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.686903",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 116.32778183995654
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.727014",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 119.30534680843466
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.768060",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 121.89391061044354
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.809166",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 123.78164481943546
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.849479",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 129.30473811761314
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.890170",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 132.45864267306655
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.932246",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 133.00080265844207
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:19.970995",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.83545378208572
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.016775",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.29339436266318
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.055383",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 138.12027446642955
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.097580",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 139.58036882737738
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.143763",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 138.9154832746767
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.187601",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.1587889159459
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.227717",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.31190012751443
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.268629",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.12532395683496
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.310729",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.904614905312
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.351178",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 139.25409480799917
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.390694",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 139.7801413349433
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.432164",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 138.86541392266886
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.469773",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 139.6598479456268
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.512769",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 140.7453227530999
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.555678",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 140.46977123177606
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.601386",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 140.59330926050333
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.649067",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 140.62827236241438
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.695735",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 140.9227641173385
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.736646",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 140.7860401984607
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.777354",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 140.5309227966278
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.818354",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 140.2889006098005
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.857453",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 141.26203647289788
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.905503",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 145.10097878500906
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.946624",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 146.74581949087008
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:20.986595",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 147.10859714743972
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.029113",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 146.9665315858272
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.069882",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 147.14386339989443
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.116926",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 147.07234086198287
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.160961",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 148.40837087794114
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.204706",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 149.68531113354237
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.245069",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 150.3862342553457
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.288611",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 150.39983042688232
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.330662",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 148.82997796924778
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.369210",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 148.2372600942181
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.410340",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 147.33378493157338
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.454294",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 145.53214672230595
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.495475",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 145.8840158303867
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.536758",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 145.36473274712537
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.577380",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 144.83951600117402
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.625035",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 144.67400738438644
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.672693",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 145.13593907627344
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.721481",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 144.17038187823073
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.760925",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 143.81852248011887
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.801592",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 145.00332443071346
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.841592",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.02830356605344
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.881284",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.7833230412158
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.919283",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.66503066002994
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:21.961380",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 145.92228892573993
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.001891",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.18893236325604
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.041891",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.27377225225592
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.083211",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.40243706379687
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.120124",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.52926099075376
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.161218",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.50609357219378
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.203125",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.80010179637898
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.243281",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.45967627533787
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.283055",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 145.90367025306685
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.324187",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 145.37857492934154
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.368113",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 144.65821073967774
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.408131",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 144.39540804791912
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.455024",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 143.9954462352347
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.495627",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 144.5445954357045
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.538530",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 145.00429058301089
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.577333",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 144.0983705160852
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.617656",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 143.80406821171442
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.657078",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 143.6683892477623
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.698428",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 143.51850668732476
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.739627",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 143.5323635055984
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.788248",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 143.4338596834858
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.833687",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 143.12325009209982
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.878371",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 142.64063791207354
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.920399",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 141.7815158486564
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:22.962598",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 141.14458408075
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.002760",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 140.64612247360662
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.043293",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 139.92555411454273
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.084593",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 139.62067222138634
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.124783",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 139.17657917794315
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.166656",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 138.67445518993264
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.211557",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 137.9629882414613
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.253075",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 137.55066231413517
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.292640",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 137.19674472782344
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.332726",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.40412288419188
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.370811",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.3859472691748
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.412955",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.60043820815727
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.453958",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.79850587726492
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.497513",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.9263646798961
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.535713",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.79990961978598
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.577668",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.52367982347397
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.620765",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.24526446782244
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.660767",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 135.47497263566967
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.701777",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 135.31402005882114
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.740794",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 134.81196117189606
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.793470",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 134.95983491633208
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.839624",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 134.31761289432185
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.885946",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 134.18037996080758
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.928177",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 133.60283789446268
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:23.971160",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 133.1591181399629
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.018893",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 133.27089222433446
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.059978",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 133.26405334662272
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.101176",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 133.50258292944818
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.140178",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 133.9638421827655
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.182051",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 134.910039051599
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.220027",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 135.56822558819172
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.261153",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 135.81663804002633
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.301632",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 135.85664260340477
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.339585",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 135.5494209951558
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.379446",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 135.603500131716
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.420520",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 135.47599039322284
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.460936",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 135.68627567956682
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.502859",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.54266143731994
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.542128",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.9310484660183
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.582914",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 137.27924083723806
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.619907",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.9351582370787
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.663141",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 137.01584100763614
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.704137",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.61855418363055
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.748134",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.20880033185225
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.785737",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 135.86663360429677
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.826402",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 135.60493881368646
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.866502",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 135.94669151999562
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.902611",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.73510758258413
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.949017",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 137.08427300822675
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:24.993277",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 136.85913861972537
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.041865",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 137.04123571784424
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.086116",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 137.69794684445853
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.126118",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 139.514972963924
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.165820",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 142.15527777480168
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.203397",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 143.57613081435363
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.245788",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 145.16696318823514
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.287385",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.21144476569455
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.327297",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.74952319611367
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.367879",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 147.11015212575413
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.406926",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 147.3125039683392
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.446989",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 147.81664951293365
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.492487",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 148.39806584326448
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.534004",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 148.13358086418026
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.573493",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 147.00369596939478
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.612563",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.95573397518712
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.652489",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 146.94259874550406
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.694165",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 147.51006711627312
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.733408",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 148.07079263561604
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.771198",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 149.2719568041704
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.812191",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 149.27635510112586
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.850791",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 151.0255861512465
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.889722",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 152.3577271219312
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.929712",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 153.05293367113666
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:25.973182",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 153.05979910643848
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.018468",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 153.83092819337224
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.063868",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 153.77580872064482
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.103703",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 152.89452845477987
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.147706",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 153.28103856371249
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.187274",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 153.53499680421382
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.235284",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 153.24006647922448
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.275583",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 152.62650080544566
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.315304",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 152.8036422941351
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.352310",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 152.57483773914046
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.393652",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 151.88765377989336
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.432425",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 150.72160306587054
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.470027",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 148.76168644834246
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.512034",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 147.83329732852258
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.553150",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 147.33073436765386
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.593777",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 146.6274779418821
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.633410",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 146.14241530881992
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.672305",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 146.1744964311868
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.712866",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 144.77365334368983
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.753777",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 143.72243777214538
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.794080",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 143.1671776335973
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.834091",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 142.8144290350036
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.871804",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 142.4283518099029
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.914387",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 142.2702452996471
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.951386",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 142.95049903067314
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:26.998384",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 144.29868131181465
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.036370",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 145.01840793915514
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.076213",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 144.45064373272697
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.117212",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 143.2705247295076
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.165161",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 141.93062388988844
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.209207",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 140.93875075731665
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.253787",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 139.65560977885565
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.296491",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 139.59082310051969
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.335242",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 139.21946806080356
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.376865",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.888872476625
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.416789",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.25190054462638
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.455820",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 136.47131184698432
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.496073",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 136.62567739309122
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.538029",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 136.22607062329956
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.579068",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 134.97808858881362
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.619369",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.22593799922447
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.659390",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 134.03131641005373
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.699566",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 133.57460196001725
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.744577",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 132.46615536453123
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.786127",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 131.77120905085826
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.825227",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 130.94654792783646
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.864565",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 130.70949953844806
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.902167",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 131.41288756770592
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.943795",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 132.01587223746492
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:27.983525",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 133.06052971522348
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.021437",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 134.39582360362934
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.064878",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.35648862996453
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.103613",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 136.47339442536082
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.146927",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.41795364259394
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.189676",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.68565028038816
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.236699",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.51041378848478
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.278220",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.69248701863478
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.319562",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 138.34429549426056
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.361851",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 138.38000754230575
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.403503",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 138.28409851731317
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.443906",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 138.1050456476868
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.491465",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.87390332311978
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.533572",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.31072863432115
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.569636",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 136.42522384325164
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.612345",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.9828576217576
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.654345",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.93672214276828
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.698355",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.82005318959955
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.735925",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.64060456898838
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.776484",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.54576477603678
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.814457",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.75101858128377
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.851672",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.99643254670943
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.893487",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 136.42494322028458
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.933680",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 136.62537562647395
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:28.970706",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 136.6946965605254
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.012283",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 136.42564304966484
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.052198",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.58034039918962
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.089817",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.3205536129356
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.129915",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.2404647693722
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.168750",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 134.8374781959653
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.214350",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.2026021844951
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.252267",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.6015534303436
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.298195",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.50652809139194
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.342096",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.75465902524937
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.387440",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.68375108060306
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.430445",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 135.8261577365281
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.470016",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 136.86763186694284
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.512631",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.52009836106336
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.555704",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 137.8115065653481
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.597799",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 138.0992795248352
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.637026",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 138.3216353105849
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.679412",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 138.31772612460165
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.719911",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 138.90554481854363
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.758218",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 139.73375528969666
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.797956",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 140.4299746778162
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.833871",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.5,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": true,
+                "body_centered": true,
+                "spine_angle": 141.61680948178056
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.874531",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 142.4854564119415
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.914836",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 142.7932654520743
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-02-23T13:23:29.952085",
+        "num_people": 1,
+        "analyses": [
+            {
+                "score": 0.30000000000000004,
+                "posture_straight": false,
+                "shoulders_level": true,
+                "arms_crossed": true,
+                "arms_open": false,
+                "body_centered": true,
+                "spine_angle": 145.07205508816114
+            }
+        ]
+    }
+]

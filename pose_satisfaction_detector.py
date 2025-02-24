@@ -195,7 +195,36 @@ class PoseSatisfactionDetector:
             
         return people_regions
 
+    def resize_frame_aspect_ratio(self, frame, max_width=1280, max_height=720):
+        """Redimensiona el frame manteniendo la proporción de aspecto"""
+        height, width = frame.shape[:2]
+        
+        # Si el frame es más pequeño que los máximos, lo dejamos como está
+        if width <= max_width and height <= max_height:
+            return frame
+            
+        # Calcular ratio de aspecto
+        aspect_ratio = width / height
+        
+        # Calcular nuevas dimensiones manteniendo proporción
+        if width > max_width:
+            new_width = max_width
+            new_height = int(new_width / aspect_ratio)
+        else:
+            new_height = max_height
+            new_width = int(new_height * aspect_ratio)
+            
+        # Si después de ajustar el ancho, la altura sigue siendo muy grande
+        if new_height > max_height:
+            new_height = max_height
+            new_width = int(new_height * aspect_ratio)
+            
+        return cv2.resize(frame, (new_width, new_height))
+
     def process_frame(self, frame):
+        # Redimensionar el frame si es necesario
+        frame = self.resize_frame_aspect_ratio(frame)
+        
         # Asegurarse de que el frame sea continuo en memoria
         if not frame.flags['C_CONTIGUOUS']:
             frame = np.ascontiguousarray(frame)
@@ -239,7 +268,7 @@ class PoseSatisfactionDetector:
                 # Dibujar rectángulo alrededor de la persona
                 cv2.rectangle(frame, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)
                 cv2.putText(frame, "Persona 1", (x_min, y_min-10),
-                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
                 
             except Exception as e:
                 print(f"Error al procesar persona: {e}")
@@ -256,9 +285,19 @@ class PoseSatisfactionDetector:
         for i, analysis in enumerate(all_analyses):
             self.draw_satisfaction_info(frame, analysis, person_index=i, total_people=len(all_analyses))
         
-        # Agregar contador de personas
-        cv2.putText(frame, f"Personas detectadas: {len(all_analyses)}", 
-                   (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
+        # Agregar contador de personas con fondo semitransparente
+        personas_text = f"Personas detectadas: {len(all_analyses)}"
+        # Obtener el tamaño del texto
+        (text_width, text_height), _ = cv2.getTextSize(personas_text, cv2.FONT_HERSHEY_SIMPLEX, 1.2, 3)
+        
+        # Dibujar un rectángulo semitransparente como fondo
+        overlay = frame.copy()
+        cv2.rectangle(overlay, (10, 10), (text_width + 20, 60), (0, 0, 0), -1)
+        cv2.addWeighted(overlay, 0.6, frame, 0.4, 0, frame)
+        
+        # Dibujar el texto
+        cv2.putText(frame, personas_text, 
+                   (15, 45), cv2.FONT_HERSHEY_SIMPLEX, 1.2, (255, 255, 255), 3)
             
         return frame
 
@@ -270,25 +309,42 @@ class PoseSatisfactionDetector:
         vertical_offset = person_index * (height // total_people)
         
         # Color basado en el score (rojo a verde)
-        color = (0, int(255 * score), int(255 * (1 - score)))
+        score_color = (0, int(255 * score), int(255 * (1 - score)))
+        texto_color = (255, 255, 255)  # Color blanco para el texto principal
         
-        # Barra de satisfacción
-        bar_width = 250
-        bar_height = 30
-        bar_x = width - bar_width - 20
-        bar_y = vertical_offset + 20
+        # Barra de satisfacción - Ajustada para dejar más espacio
+        bar_width = 500  # Aumentado para texto más largo
+        bar_height = 40
+        bar_x = width - bar_width - 100  # Más margen a la derecha
+        bar_y = vertical_offset + 80    # Más espacio desde arriba
         
-        # Dibujar barra
-        cv2.rectangle(frame, (bar_x, bar_y), (bar_x + bar_width, bar_y + bar_height), (255, 255, 255), 2)
-        cv2.rectangle(frame, (bar_x, bar_y), (int(bar_x + bar_width * score), bar_y + bar_height), color, -1)
-        
-        # Texto principal
+        # Dibujar título con borde negro para mejor visibilidad
         satisfaction_text = f"Persona {person_index + 1} - Satisfaccion: {score:.2%}"
-        cv2.putText(frame, satisfaction_text, (bar_x, bar_y - 10), 
-                   cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
+        
+        # Dibujar el texto con borde negro
+        font = cv2.FONT_HERSHEY_SIMPLEX
+        font_scale = 1.2
+        thickness = 2
+        # Borde negro
+        cv2.putText(frame, satisfaction_text, (bar_x, bar_y - 20), 
+                   font, font_scale, (0, 0, 0), thickness + 2)
+        # Texto blanco
+        cv2.putText(frame, satisfaction_text, (bar_x, bar_y - 20), 
+                   font, font_scale, texto_color, thickness)
+        
+        # Dibujar barra de progreso con borde
+        cv2.rectangle(frame, (bar_x, bar_y), 
+                     (bar_x + bar_width, bar_y + bar_height), 
+                     (0, 0, 0), thickness + 2)  # Borde negro
+        cv2.rectangle(frame, (bar_x, bar_y), 
+                     (bar_x + bar_width, bar_y + bar_height), 
+                     (255, 255, 255), thickness)  # Borde blanco
+        cv2.rectangle(frame, (bar_x, bar_y), 
+                     (int(bar_x + bar_width * score), bar_y + bar_height), 
+                     score_color, -1)
         
         # Métricas detalladas
-        metrics_y = bar_y + bar_height + 30
+        metrics_y = bar_y + bar_height + 50
         metrics_names = {
             'posture_straight': 'Postura recta',
             'shoulders_level': 'Hombros nivelados',
@@ -303,24 +359,73 @@ class PoseSatisfactionDetector:
                 if metric == 'arms_crossed':  # Invertir para arms_crossed
                     value = not value
                 status = "OK" if value else "NO"
-                text_color = (0, 255, 0) if value else (0, 0, 255)
-                cv2.putText(frame, f"{name}: {status}", (bar_x, metrics_y), 
-                           cv2.FONT_HERSHEY_SIMPLEX, 0.6, text_color, 2)
-                metrics_y += 25
+                status_color = (0, 255, 0) if value else (0, 0, 255)
+                
+                # Dibujar el nombre de la métrica con borde
+                # Borde negro
+                cv2.putText(frame, f"{name}:", (bar_x, metrics_y), 
+                           font, 1.0, (0, 0, 0), thickness + 2)
+                # Texto blanco
+                cv2.putText(frame, f"{name}:", (bar_x, metrics_y), 
+                           font, 1.0, texto_color, thickness)
+                
+                # Dibujar el status con borde
+                status_x = bar_x + 350  # Aumentado para evitar solapamiento
+                # Borde negro
+                cv2.putText(frame, status, (status_x, metrics_y), 
+                           font, 1.0, (0, 0, 0), thickness + 2)
+                # Texto en color
+                cv2.putText(frame, status, (status_x, metrics_y), 
+                           font, 1.0, status_color, thickness)
+                
+                metrics_y += 45  # Aumentado el espacio entre líneas
         
         # Mostrar ángulo de la columna
         if 'spine_angle' in analysis:
-            spine_text = f"Angulo columna: {analysis['spine_angle']:.1f}°"
+            spine_text = f"Angulo columna:"
+            angle_value = f"{analysis['spine_angle']:.1f} grados"
+            
+            # Borde negro para el texto
             cv2.putText(frame, spine_text, (bar_x, metrics_y), 
-                       cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
+                       font, 1.0, (0, 0, 0), thickness + 2)
+            # Texto blanco
+            cv2.putText(frame, spine_text, (bar_x, metrics_y), 
+                       font, 1.0, texto_color, thickness)
+            
+            # Borde negro para el valor
+            cv2.putText(frame, angle_value, (status_x, metrics_y), 
+                       font, 1.0, (0, 0, 0), thickness + 2)
+            # Texto blanco
+            cv2.putText(frame, angle_value, (status_x, metrics_y), 
+                       font, 1.0, texto_color, thickness)
 
     def save_data(self):
         if not os.path.exists('data'):
             os.makedirs('data')
         
+        # Función auxiliar para convertir tipos de NumPy a tipos nativos de Python
+        def convert_numpy_types(obj):
+            if isinstance(obj, dict):
+                return {key: convert_numpy_types(value) for key, value in obj.items()}
+            elif isinstance(obj, list):
+                return [convert_numpy_types(item) for item in obj]
+            elif isinstance(obj, np.bool_):
+                return bool(obj)
+            elif isinstance(obj, np.integer):
+                return int(obj)
+            elif isinstance(obj, np.floating):
+                return float(obj)
+            elif isinstance(obj, np.ndarray):
+                return convert_numpy_types(obj.tolist())
+            else:
+                return obj
+        
+        # Convertir todos los datos antes de guardar
+        converted_data = convert_numpy_types(self.satisfaction_data)
+        
         filename = f"data/satisfaction_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
         with open(filename, 'w') as f:
-            json.dump(self.satisfaction_data, f, indent=4)
+            json.dump(converted_data, f, indent=4)
         return filename
 
     def run(self, source):
@@ -337,11 +442,8 @@ class PoseSatisfactionDetector:
                 print(f"ERROR: No se pudo abrir el archivo de video: {source}")
                 return None
             
-            # Configurar una velocidad de reproducción más lenta para videos
-            original_fps = int(cap.get(cv2.CAP_PROP_FPS))
-            desired_fps = 5  # Reducir a 5 FPS para mejor análisis
-            frame_delay = int(1000 / desired_fps)  # Delay en milisegundos
-            print(f"FPS original: {original_fps}, FPS deseado: {desired_fps}")
+            # Configurar una velocidad de reproducción más rápida para videos
+            frame_delay = 1  # Mínimo delay posible
         else:
             # Intentar diferentes backends de cámara para webcam
             backends = [cv2.CAP_DSHOW, cv2.CAP_MSMF, cv2.CAP_ANY]
@@ -360,15 +462,19 @@ class PoseSatisfactionDetector:
                 print(f"ERROR: No se pudo abrir la cámara {source}")
                 return None
             
-            frame_delay = 1  # Para webcam, usar delay mínimo
+            frame_delay = 1
         
-        # Configurar propiedades
+        # Configurar resolución más baja para mejor rendimiento
         width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
         height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
         fps = int(cap.get(cv2.CAP_PROP_FPS))
         total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
         
-        print(f"Resolución: {width}x{height} @ {fps}fps")
+        print(f"Resolución original: {width}x{height} @ {fps}fps")
+        if width > 1280 or height > 720:
+            print("El video será redimensionado automáticamente para mejor visualización")
+            print("Resolución máxima: 1280x720 (manteniendo proporción de aspecto)")
+        
         if isinstance(source, str):
             print(f"Total de frames: {total_frames}")
         print("\nPresiona 'q' para salir, 's' para saltar frame, 'p' para pausar/continuar")
